@@ -1,7 +1,7 @@
 #include <iostream>
 #include <queue>
-#include <vector>
 #include <tuple>
+#include <vector>
 
 using namespace std;
 
@@ -68,7 +68,7 @@ int main() {
     int x, y;
     cin >> x >> y;
 
-    cout << bfs(m, n, x, y, adj) << '\n';
+    cout << bfs(m, n, x + 1, y + 1, adj) << '\n';
 
     return 0;
 }
